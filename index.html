@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerthi S | Computer Science Student Portfolio</title>
+    <meta name="description" content="Portfolio of Keerthi S, 1st Year B.E. Computer Science and Engineering student at M.Kumarasamy Engineering College, Karur.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-accent">Keerthi</span> S
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#achievements" class="nav-link"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+                <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a href="#languages" class="nav-link"><i class="fa-solid fa-language"></i> Languages</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-pill hero-badge">
+                    <i class="fa-solid fa-certificate"></i> B.E. CSE Student • 1st Year
+                </div>
+                <h1 class="hero-title">
+                    Hello, I'm <span class="highlight-text">Keerthi S</span>
+                </h1>
+                <p class="hero-subtitle">
+                    First-Year Computer Science & Engineering Student at <strong class="college-name">M.Kumarasamy Engineering College, Karur</strong>.
+                </p>
+                <p class="hero-desc">
+                    Motivated, flexible, and open-minded learner eager to build problem-solving skills in software, programming languages, and modern AI tools.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                    </a>
+                    <a href="#education" class="btn btn-outline">
+                        <i class="fa-solid fa-graduation-cap"></i> View Qualifications
+                    </a>
+                </div>
+
+                <div class="hero-quick-contact">
+                    <div class="quick-item" onclick="copyText('keerthi020708@gmail.com', 'Email copied!')" title="Click to copy email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>keerthi020708@gmail.com</span>
+                    </div>
+                    <div class="quick-item" onclick="copyText('9791233328', 'Phone number copied!')" title="Click to copy phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 9791233328</span>
+                    </div>
+                    <a href="https://www.linkedin.com/in/keerthi-s-6b806637b/" target="_blank" rel="noopener noreferrer" class="quick-item" title="Visit LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="image-frame">
+                    <img src="profile.jpg" alt="Keerthi S - Portfolio Photo" class="profile-img">
+                    <div class="floating-badge rank-badge">
+                        <div class="badge-icon">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="badge-info">
+                            <span class="badge-title">State 1st Rank</span>
+                            <span class="badge-sub">English HSC • 100% Mark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-user-gear title-icon"></i> About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="card about-card">
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <h3>Personal Overview</h3>
+                            <p>
+                                I am a passionate first-year student pursuing a <strong>Bachelor of Engineering (B.E.) in Computer Science and Engineering</strong> at <strong>M.Kumarasamy Engineering College, Karur, Tamil Nadu</strong>.
+                            </p>
+                            <p>
+                                As an adaptable and highly motivated student, I thrive on learning new technology stacks, enhancing logical thinking, and mastering problem-solving skills. I enjoy taking on challenges with flexibility and enthusiasm.
+                            </p>
+
+                            <div class="trait-tags">
+                                <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Motivated Student</span>
+                                <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Open to Learn</span>
+                                <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Flexible & Adaptable</span>
+                                <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Problem Solver</span>
+                            </div>
+                        </div>
+
+                        <div class="about-highlights">
+                            <div class="info-box">
+                                <div class="info-icon"><i class="fa-solid fa-building-columns"></i></div>
+                                <div class="info-detail">
+                                    <span class="info-label">College</span>
+                                    <span class="info-value">M.Kumarasamy Engineering College, Karur</span>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <div class="info-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                                <div class="info-detail">
+                                    <span class="info-label">Department</span>
+                                    <span class="info-value">Computer Science & Engineering (B.E)</span>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="info-detail">
+                                    <span class="info-label">Location</span>
+                                    <span class="info-value">Karur / Namakkal, Tamil Nadu, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-award title-icon"></i> Key Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="card achievement-card highlight-border">
+                    <div class="achievement-icon-wrapper">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-tag">Academic Excellence</div>
+                        <h3 class="achievement-title">State 1st Rank Holder in English (HSC Exam 2026)</h3>
+                        <p class="achievement-desc">
+                            Achieved a perfect score of <strong>100% (200/200)</strong> in the English Higher Secondary Certificate (12th) Board Examinations under Tamil Nadu State Board.
+                        </p>
+                        <div class="achievement-meta">
+                            <span><i class="fa-solid fa-school"></i> SPM Matriculation & Higher Secondary School, Namakkal</span>
+                            <span><i class="fa-solid fa-calendar"></i> Year 2026</span>
+                            <span class="badge-percent">100% Mark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section (3 Structured Boxes) -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-graduation-cap title-icon"></i> Educational Background</h2>
+                    <p class="section-subtitle">A breakdown of my academic qualifications from school to college.</p>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="education-grid">
+                    <!-- Education Box 1: College -->
+                    <div class="card edu-card active-edu">
+                        <div class="edu-header">
+                            <span class="edu-badge">Current • 1st Year</span>
+                            <span class="edu-year">2026 - Present</span>
+                        </div>
+                        <div class="edu-body">
+                            <div class="edu-icon-title">
+                                <i class="fa-solid fa-university"></i>
+                                <h3>B.E. Computer Science and Engineering</h3>
+                            </div>
+                            <h4 class="institution-name">M.Kumarasamy Engineering College</h4>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Karur, Tamil Nadu</p>
+                            <ul class="edu-details">
+                                <li><i class="fa-solid fa-angle-right"></i> Currently pursuing First Year of B.E. CSE.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Focusing on Core Programming (Python, C++, C) & AI tools.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Actively building logical & problem-solving foundations.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education Box 2: HSC (12th) -->
+                    <div class="card edu-card">
+                        <div class="edu-header">
+                            <span class="edu-badge score-badge">91.33% Score</span>
+                            <span class="edu-year">2025 - 2026</span>
+                        </div>
+                        <div class="edu-body">
+                            <div class="edu-icon-title">
+                                <i class="fa-solid fa-school"></i>
+                                <h3>Higher Secondary Certificate (HSC - 12th)</h3>
+                            </div>
+                            <h4 class="institution-name">SPM Matriculation & Higher Secondary School</h4>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Kozhikkalnatham, Namakkal, Tamil Nadu</p>
+                            <ul class="edu-details">
+                                <li><i class="fa-solid fa-angle-right"></i> Secured overall aggregate of <strong>91.33%</strong>.</li>
+                                <li><i class="fa-solid fa-star text-gold"></i> <strong>State 1st Rank Holder in English</strong> (100% Mark).</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Specialized in Mathematics, Physics, Chemistry & Computer Science.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education Box 3: SSLC (10th) -->
+                    <div class="card edu-card">
+                        <div class="edu-header">
+                            <span class="edu-badge score-badge high-score">97.6% Score</span>
+                            <span class="edu-year">2023 - 2024</span>
+                        </div>
+                        <div class="edu-body">
+                            <div class="edu-icon-title">
+                                <i class="fa-solid fa-certificate"></i>
+                                <h3>Secondary School Leaving Certificate (SSLC - 10th)</h3>
+                            </div>
+                            <h4 class="institution-name">SPM Matriculation & Higher Secondary School</h4>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Kozhikkalnatham, Namakkal, Tamil Nadu</p>
+                            <ul class="edu-details">
+                                <li><i class="fa-solid fa-angle-right"></i> Secured outstanding academic result of <strong>97.6%</strong>.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Demonstrated top performance in Mathematics, Science & Languages.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Built strong fundamentals in analytical and language skills.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-code title-icon"></i> Skills & Expertise</h2>
+                    <p class="section-subtitle">Technical concepts, programming languages, and productivity tools I am mastering.</p>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Skill 1: Python -->
+                    <div class="card skill-card">
+                        <div class="skill-icon python-color">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3 class="skill-name">Python</h3>
+                        <p class="skill-desc">Core programming, algorithms, data structures, and script automation.</p>
+                        <div class="skill-tag">Programming Language</div>
+                    </div>
+
+                    <!-- Skill 2: C++ -->
+                    <div class="card skill-card">
+                        <div class="skill-icon cpp-color">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="skill-name">C++</h3>
+                        <p class="skill-desc">Object-oriented concepts, high-performance logic, and structural problem solving.</p>
+                        <div class="skill-tag">Programming Language</div>
+                    </div>
+
+                    <!-- Skill 3: C -->
+                    <div class="card skill-card">
+                        <div class="skill-icon c-color">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                        <p class="skill-desc">Foundational programming, memory management basics, and logic building.</p>
+                        <div class="skill-tag">Core Language</div>
+                    </div>
+
+                    <!-- Skill 4: AI Tools -->
+                    <div class="card skill-card">
+                        <div class="skill-icon ai-color">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <h3 class="skill-name">AI Tools</h3>
+                        <p class="skill-desc">Utilizing modern AI tools to accelerate learning, debugging, and productivity.</p>
+                        <div class="skill-tag">Modern Technology</div>
+                    </div>
+
+                    <!-- Skill 5: Problem Solving -->
+                    <div class="card skill-card">
+                        <div class="skill-icon problem-color">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3 class="skill-name">Problem Solving</h3>
+                        <p class="skill-desc">Analytical thinking, algorithmic logic, decision making, and step-by-step resolution.</p>
+                        <div class="skill-tag">Core Competency</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Known Section -->
+        <section id="languages" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-language title-icon"></i> Languages Known</h2>
+                    <p class="section-subtitle">Multilingual abilities across reading, writing, and speaking.</p>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="languages-grid">
+                    <!-- Tamil Card -->
+                    <div class="card lang-card">
+                        <div class="lang-header">
+                            <div class="lang-flag-icon"><i class="fa-solid fa-comments"></i></div>
+                            <h3>Tamil</h3>
+                        </div>
+                        <p class="lang-native">Native Language</p>
+                        <div class="lang-skills">
+                            <span class="lang-chip"><i class="fa-solid fa-book-open"></i> Read</span>
+                            <span class="lang-chip"><i class="fa-solid fa-pen"></i> Write</span>
+                            <span class="lang-chip"><i class="fa-solid fa-volume-high"></i> Speak</span>
+                        </div>
+                        <div class="lang-proficiency">Proficiency: <strong>Full Professional / Native (R, W, S)</strong></div>
+                    </div>
+
+                    <!-- English Card -->
+                    <div class="card lang-card highlight-card">
+                        <div class="lang-header">
+                            <div class="lang-flag-icon text-gold"><i class="fa-solid fa-star"></i></div>
+                            <h3>English</h3>
+                        </div>
+                        <p class="lang-native">State 1st Rank Distinction (100% Mark)</p>
+                        <div class="lang-skills">
+                            <span class="lang-chip"><i class="fa-solid fa-book-open"></i> Read</span>
+                            <span class="lang-chip"><i class="fa-solid fa-pen"></i> Write</span>
+                            <span class="lang-chip"><i class="fa-solid fa-volume-high"></i> Speak</span>
+                        </div>
+                        <div class="lang-proficiency">Proficiency: <strong>Fluent / Professional (R, W, S)</strong></div>
+                    </div>
+
+                    <!-- Hindi Card -->
+                    <div class="card lang-card">
+                        <div class="lang-header">
+                            <div class="lang-flag-icon"><i class="fa-solid fa-globe"></i></div>
+                            <h3>Hindi</h3>
+                        </div>
+                        <p class="lang-native">Additional Language</p>
+                        <div class="lang-skills">
+                            <span class="lang-chip"><i class="fa-solid fa-book-open"></i> Read</span>
+                            <span class="lang-chip"><i class="fa-solid fa-pen"></i> Write</span>
+                        </div>
+                        <div class="lang-proficiency">Proficiency: <strong>Intermediate (R, W)</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-paper-plane title-icon"></i> Contact Details</h2>
+                    <p class="section-subtitle">Feel free to reach out to me for academic opportunities and collaborations.</p>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-grid">
+                        <!-- Email Box -->
+                        <div class="card contact-card">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <h3>Email Address</h3>
+                            <p>keerthi020708@gmail.com</p>
+                            <div class="card-btn-group">
+                                <a href="mailto:keerthi020708@gmail.com" class="btn btn-sm btn-primary">
+                                    <i class="fa-solid fa-envelope"></i> Send Email
+                                </a>
+                                <button class="btn btn-sm btn-outline" onclick="copyText('keerthi020708@gmail.com', 'Email copied to clipboard!')">
+                                    <i class="fa-solid fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Phone Box -->
+                        <div class="card contact-card">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <h3>Phone Number</h3>
+                            <p>+91 9791233328</p>
+                            <div class="card-btn-group">
+                                <a href="tel:9791233328" class="btn btn-sm btn-primary">
+                                    <i class="fa-solid fa-phone"></i> Call Now
+                                </a>
+                                <button class="btn btn-sm btn-outline" onclick="copyText('9791233328', 'Phone number copied to clipboard!')">
+                                    <i class="fa-solid fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn Box -->
+                        <div class="card contact-card">
+                            <div class="contact-icon linkedin-color"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <h3>LinkedIn Profile</h3>
+                            <p>Connect on LinkedIn</p>
+                            <div class="card-btn-group">
+                                <a href="https://www.linkedin.com/in/keerthi-s-6b806637b/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                    <i class="fa-brands fa-linkedin-in"></i> Visit Profile
+                                </a>
+                                <button class="btn btn-sm btn-outline" onclick="copyText('https://www.linkedin.com/in/keerthi-s-6b806637b/', 'LinkedIn URL copied to clipboard!')">
+                                    <i class="fa-solid fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>Keerthi S</h3>
+                <p>1st Year B.E. Computer Science & Engineering • M.Kumarasamy Engineering College, Karur</p>
+            </div>
+            <!-- Footer Copyright Removed as requested -->
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMsg">Action completed successfully!</span>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
